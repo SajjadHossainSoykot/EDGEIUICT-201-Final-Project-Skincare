@@ -4,7 +4,7 @@
 /* Reseting */
 
 .reviews-section {
-    padding-top: 70px;
+    padding-top: 15vh;
     background: linear-gradient(to right, #085F57, #10aa9b);
     min-height: 100vh;
 }

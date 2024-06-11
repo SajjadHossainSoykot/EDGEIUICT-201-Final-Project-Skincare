@@ -6,7 +6,7 @@ const reviews = [
         name: "Angelina Jolie"
     },
     {
-        image: "images/reviewers/aishwarya.jpg",
+        image: "images/reviewers/Aishwarya.jpg",
         testimonial: "The personalized care and attention at Shithy Skin Care make all the difference. Highly recommended!",
         name: "Aishwarya Rai"
     },
