@@ -1,12 +1,12 @@
 // reviewsData.js
 const reviews = [
     {
-        image: "images/reviewers/Angelina.jpg",
+        image: "images/reviewers/angelina.jpg",
         testimonial: "Shithy Skin Care's products are simply amazing! My skin has never felt so rejuvenated.",
         name: "Angelina Jolie"
     },
     {
-        image: "images/reviewers/Aishwarya.jpg",
+        image: "images/reviewers/aishwarya.jpg",
         testimonial: "The personalized care and attention at Shithy Skin Care make all the difference. Highly recommended!",
         name: "Aishwarya Rai"
     },
