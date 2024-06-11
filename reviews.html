@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.svg" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/reviews.css" />
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch("navbar.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("navbar-placeholder").innerHTML = data;
+            });
+    </script>
+    <!-- Navbar End -->
+
+    <!-- Review Section Start -->
+    <section class="reviews-section">
+        <h2 class="text-white text-center">Our Customer Reviews</h2>
+        <div class="owl-carousel owl-theme mt-5" id="reviews-carousel">
+            <!-- Review cards will be injected here by JavaScript -->
+        </div>
+    </section>
+    <!-- Review Section End  -->
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script>
+        // Load the footer from an external file
+        fetch("footer.html")
+            .then((response) => response.text())
+            .then((data) => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+
+    <!-- All Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="js/reviews.js"></script>
+
+</body>
+
+</html>

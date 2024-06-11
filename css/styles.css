@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 60px;
+}
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.custom-navbar,
+footer,
+footer a {
+    background-color: #fffafa;
+    color: #100D29;
+}
+
+.custom-navbar {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+    color: #100D29;
+    /* Change text color */
+    /* font-weight: 600; */
+    text-align: center;
+    text-decoration: none;
+}
+
+.custom-navbar .navbar-brand {
+    padding-left: 2%;
+}
+
+
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #bc0237;
+    /* Change text color on hover */
+}
+
+
+
+
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    /* Increase font size */
+    margin-right: 20px;
+    /* Increase gap between items */
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width='30' height='30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    /* Change icon color to dark */
+}
+@media (max-width: 575.5px) {
+    #carouselExampleIndicators {
+        padding-top: 3%;
+    }
+}
+
+.copyright,
+.copyright a {
+    background-color: #100D29;
+    color: #fff;
+}

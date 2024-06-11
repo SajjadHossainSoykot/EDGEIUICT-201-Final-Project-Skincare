@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #ffffff;
+  }
+  #about {
+    background: linear-gradient(to right, #085F57, #10aa9b);
+    padding: 60px 0;
+  }
+  #about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  #about p.lead {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  #about h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  #about p, #about ul {
+    font-size: 1rem;
+    color: #fff;
+  }
+  .icon-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .icon-box i {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-right: 15px;
+  }
+  .icon-box h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  .icon-box p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
